@@ -1,0 +1,6 @@
+Order deny,allow
+Deny from all
+
+<FilesMatch "send.php|process.php">
+    Allow from all
+</FilesMatch>

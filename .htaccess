@@ -1,0 +1,6 @@
+# Enable the rewriting engine
+RewriteEngine On
+
+# Rewrite rule to remove .php extension
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/]+)$ $1.php [L]
