@@ -63,7 +63,7 @@ include ('includes/config.php');
     <div class="col-10 col-lg-6">
         <form class="ajax" action="" method="post">
             <div class="pb-5"><h2 class="fs-3 ff-secondary fw-normal text-uppercase m-0">Register</h2></div>
-            <div class><div class="error-code"></div></div>
+            <div class=""><div class="error-code"></div></div>
         <div class="w-100 pb-4">
             <label for="first_name" class="d-none">First Name</label>
     <input type="text" name="first_name" id="first_name" class="form-control fs-5 text-capitalize placeholder-capitalize bg-transparent rounded-0 border-top-0 border-start-0 border-end-0 border-secondary px-0 ls-055" placeholder="First Name" required="required">
@@ -204,7 +204,10 @@ include ('includes/config.php');
         </div>
     </footer>
 
-    <script src="<?= SITE_URL . '/assets/js/vendors.js'; ?>"></script>
-    <script src="<?= SITE_URL . '/assets/js/scripts.js'; ?>"></script>
+    <script defer src="<?= SITE_URL . '/assets/js/vendors.js'; ?>"></script>
+    <script defer src="<?= SITE_URL . '/assets/js/scripts.js'; ?>"></script>
+
+
+
 </body>
 </html>
